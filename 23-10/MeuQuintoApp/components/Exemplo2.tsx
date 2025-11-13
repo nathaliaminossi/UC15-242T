@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 export default function Exemplo2() {
 
     useEffect(() => {
-        console.log("Compinente apareceu")
+        console.log("Componente apareceu")
     }, []) // vai ser chamado uma vez só, quando o componente for montado na tela
   return (
       <View style={{ padding: 20 }}>
